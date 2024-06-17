@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "polearm",
+	"version": "${version}",
+	"name": "Polearm",
+	"description": "Completely overhauling Minecraft's combat.",
+	"authors": [
+		"GlacialSkyfarer"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/polearm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.polearm.PolearmMain"
+		],
+		"client": [
+			"com.polearm.PolearmClient"
+		]
+	},
+	"mixins": [
+		"polearm.mixins.json",
+		{
+			"config": "polearm.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
