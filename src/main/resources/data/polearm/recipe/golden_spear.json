@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RW",
+    " SR",
+    "S  "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "polearm:golden_spear",
+    "count": 1
+  }
+}

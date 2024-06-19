@@ -1,0 +1,130 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "polearm:item/netherite_spear_held"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        50
+      ],
+      "translation": [
+        0,
+        6,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        -90,
+        50
+      ],
+      "translation": [
+        0,
+        6,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        50
+      ],
+      "translation": [
+        0,
+        -6,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        90,
+        -90,
+        50
+      ],
+      "translation": [
+        0,
+        -6,
+        2
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "ground": {
+      "translation": [
+        -8,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "gui": {
+      "translation": [
+        -8,
+        -8,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        -45
+      ],
+      "translation": [
+        2,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -8,
+        -8,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        1
+      ]
+    }
+  }
+}

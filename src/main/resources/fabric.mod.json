@@ -17,7 +17,7 @@
           "com.polearm.PolearmMain"
 		],
 		"client": [
-			"com.polearm.PolearmClient"
+			"com.polearm.client.PolearmClient"
 		]
 	},
 	"mixins": [
